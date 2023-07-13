@@ -8,7 +8,6 @@ body {
     font-family: sans-serif;
 }
 
-
 .mockup {
     width: 450px;
 }
@@ -52,4 +51,15 @@ button {
      cursor: pointer;
      font-size: 12px;
      font-weight: 20px;
+ }
+
+ .imagens {
+    position: relative;    
+ }
+
+ .img-insta {
+    height: 520px;
+    position: absolute;
+    left: 153px;
+    top: 26px;
  }
