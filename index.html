@@ -14,7 +14,7 @@
     <div class="imagens">
         <img src="./assents/celular.png" class="mockup">
         <img src="./assents/insta1.png" class="img-insta"> 
-        <img src="./assents/insta2.png" class="img-insta">
+        <img src="./assents/insta2.png" class="img-insta img-2">
     </div>
 
     <div class="container">
@@ -29,5 +29,17 @@
     </div>
 
 </body>
+
+<script>
+    let imagem = document.querySelector(".img-2")
+
+    setInterval(() => {
+        if (imagem.style.opacity == 0){
+            imagem.style.opacity = 1
+        } 
+        else {(imagem.style.opacity = 0)
+        }      
+    }, 3000);  
+</script>
 
 </html>
