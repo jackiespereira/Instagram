@@ -64,3 +64,10 @@ button {
     top: 26px;
     transition: ease-in-out 2s;
  }
+
+ @media screen and (max-width:768px) {
+    body {
+        display: block;
+        text-align: center;
+    }
+ }
